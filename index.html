@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Menú de Rotisería Delivery">
-    <title>Menú - Rotisería</title>
+    <title>Menú Delivery - Rotisería</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -53,6 +53,39 @@
         .price {
             font-weight: bold;
             color: #f7f3ea;
+        }
+
+        /* MEDIA QUERIES para pantallas pequeñas */
+        @media (max-width: 768px) {
+            .menu-container {
+                width: 90%; /* Se ajusta al 90% del ancho en tablets */
+                padding: 15px;
+            }
+            h1 {
+                font-size: 36px; /* Tamaño de fuente reducido para tablets */
+            }
+            h2 {
+                font-size: 18px; /* Tamaño de fuente reducido */
+            }
+            li {
+                font-size: 16px; /* Reducir tamaño de texto en general */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .menu-container {
+                width: 100%; /* Ocupa todo el ancho disponible en móviles */
+                padding: 10px;
+            }
+            h1 {
+                font-size: 28px; /* Fuente más pequeña en móviles */
+            }
+            h2 {
+                font-size: 16px; /* Tamaño de fuente reducido aún más */
+            }
+            li {
+                font-size: 14px; /* Ajuste del tamaño del texto */
+            }
         }
     </style>
 </head>
